@@ -23,4 +23,8 @@
     #coords{
         display: none !important;
     }
+
+    #modal_content{
+        width: 80%;
+    }
 }

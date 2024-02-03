@@ -13,7 +13,10 @@ const SET_THEME = (status) => {
     }
 }
 
-const SET_FONT_SIZE = (val) => {
+const SET_FONT_SIZE = (el, val) => {
+    if (val < el.min) {
+        val = el.min
+    }
     let appData = CHECK_STORAGE()
     EDITOR.style.fontSize = `${val}px`
     appData.fontsize = val
