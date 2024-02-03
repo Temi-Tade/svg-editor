@@ -1,0 +1,13 @@
+html{
+    background: var(--color);
+    color: var(--bgcolor);
+}
+
+textarea{
+    color: var(--bgcolor);
+}
+
+#toast_text, #coords{
+    color: var(--color);
+    background: var(--bgcolor);
+}

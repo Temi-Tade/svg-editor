@@ -1,0 +1,26 @@
+@media screen and (max-width: 600px) {
+    section#content{
+        flex-direction: column;
+    }
+
+    section#editor{
+        height: 40%;
+    }
+
+    section#output{
+        height: 60%;
+    }
+
+    #output h2{
+        height: auto;
+        padding: .5rem;
+    }
+
+    textarea#code{
+        height: 100%;
+    }
+
+    #coords{
+        display: none !important;
+    }
+}
